@@ -176,7 +176,7 @@ export function ExpenseForm({ onSubmit, isSubmitting }: ExpenseFormProps) {
           <div className="bg-white p-4 rounded-lg border">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="space-y-2">
-                <Label htmlFor="costCenter">Cost Center plus Program</Label>
+                <Label htmlFor="costCenter">CC , PG , DR (if donation acoount enter GF Number )</Label>
                 <Input
                   id="costCenter"
                   {...register("costCenter", { required: "Cost center is required" })}
