@@ -18,7 +18,7 @@ async function collectFormData() {
     eventLocation: await question("Location of Event: "),
     eventDate: await question("Event Date: "),
     businessPurpose: await question("Business (Public) Purpose: "),
-    costCenter: await question("Cost Center plus Program: "),
+    costCenter: await question("Cost Center// plus Program: "),
     poNumber: await question("PO # (if applicable): "),
     totalAmount: await question("Total Amount: "),
     asuAttendees: [],
